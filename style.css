@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EE82EE;
+    width: 100%;
+    justify-content: center;
+  }
+
+.w3-center{text-align:center!important}
+
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+
+.learntocodecontent {
+    padding-left:90px;
+    padding-right:90px;
+  }
+
+.learntocodeh1 {
+    margin-top: 2px;
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+.learntocodeh3 {
+    color:#FFF0F5;
+    font-weight:700;
+    margin-top:30px!important;
+    font-size:25px;
+  }
+
+
+/*For The Table*/
+td{
+    border: 2px solid #fd2d53;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+    background: #FFFFF0;
+}
+
+table{
+
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 300px;
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+
+table tr:last-child td{
+    border-top: 0;
+}
+table tr td:first-child{
+    border-left: 0;
+}
+
+table tr td:last-child{
+    border-right: 0;
+}
+
+table tr:last-child td{
+    border-bottom: 0;
+}
+
+.endgame{
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: rgba(205, 133, 63, 0.8);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 584px;
+    padding-top:10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+
+
+}
+
+.endgame .button{
+    margin-left: 695px;
+    margin-top: 350px;
+
+    display:flex;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
